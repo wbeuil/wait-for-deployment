@@ -1,0 +1,16 @@
+name: Wait For GitHub Deployment
+description: Wait for a GitHub deployment to complete and get its url
+inputs:
+  token:
+    description: Your GitHub access token
+    required: true
+  timeout:
+    description: The max time to run the action (in seconds)
+    required: false
+    default: "120"
+outputs:
+  url:
+    description: The url of the new deployment
+runs:
+  using: node12
+  main: index.js

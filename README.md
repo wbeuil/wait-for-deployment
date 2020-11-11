@@ -1,2 +1,3 @@
-# wait-for-deployment
-Github action that waits for a deployment
+# Wait For GitHub Deployment
+
+Wait for a GitHub deployment to complete and get its url
