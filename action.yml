@@ -8,10 +8,13 @@ inputs:
   timeout:
     description: The max time to run the action (in seconds)
     required: false
-    default: "120"
+    default: '120'
 outputs:
   url:
     description: The url of the new deployment
 runs:
   using: node12
   main: dist/index.js
+branding:
+  icon: send
+  color: orange
