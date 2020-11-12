@@ -29,7 +29,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: wbeuil/wait-for-deployment@v1
+      - uses: wbeuil/wait-for-deployment@v1.0.0
         id: deployment
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
